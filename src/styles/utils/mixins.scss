@@ -10,3 +10,13 @@
     animation: slide-in-right $transition-duration ease forwards;
   }
 }
+
+@mixin icon-wrapper($width) {
+  display: flex;
+  width: $width;
+}
+
+@mixin icon {
+  width: 100%;
+  height: auto;
+}

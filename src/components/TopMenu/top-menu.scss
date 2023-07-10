@@ -2,15 +2,39 @@
   position: relative;
   padding: 20px 100px;
   z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+
   font-family: "Mont", sans-serif;
   background-color: white;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  &__clock-icon-wrapper {
+
+  &__icon-wrapper {
+    display: flex;
     width: 15px;
   }
 
+  &__title-icon-wrapper {
+    @include icon-wrapper(35px);
+  }
+
+  &__clock-icon-wrapper {
+    @include icon-wrapper(15px);
+  }
+
+  &__title-icon {
+    @include icon;
+  }
+
   &__clock-icon {
-    width: 100%;
-    height: auto;
+    @include icon;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 }

@@ -11,9 +11,16 @@ export const getFormattedDateTime = (date: Date) => {
     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
   ];
 
+  const daysOfWeek = ['Sunday', 'Monday', 'Tuesday',
+    'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+  const currentDayOfWeek = date.getDay();
+
+  const formattedDay = daysOfWeek[currentDayOfWeek];
+
   const formattedDate = `${day} ${monthNames[monthIndex]}, ${year}`;
 
   const formattedTime = `${hours}:${minutes}`;
 
-  return [formattedDate, formattedTime];
+  return [formattedDate, formattedTime, formattedDay];
 };

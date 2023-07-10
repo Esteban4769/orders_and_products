@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import myImage from '../../images/clock.svg';
+import topMenuIcon from '../../images/top-menu-icon.png';
+
 import { getFormattedDateTime } from '../../utils/dateFormatter';
 
 export const TopMenu = () => {
@@ -15,12 +17,29 @@ export const TopMenu = () => {
     };
   }, []);
 
-  const [formattedDate, formatedTime] = getFormattedDateTime(dateTime);
+  const [
+    formattedDate,
+    formatedTime,
+    formattedDay,
+  ] = getFormattedDateTime(dateTime);
 
   return (
     <header className="top-menu">
+      <div className="top-menu__title">
+        <div className="top-menu__title-icon-wrapper">
+          <img
+            src={topMenuIcon}
+            alt="top-menu-icon"
+            className="top-menu__title-icon"
+          />
+        </div>
+        &nbsp;
+        Orders & Products
+      </div>
       <div className="top-menu__date">
-        Today
+        <p>
+          {formattedDay}
+        </p>
         {formattedDate}
         <div className="top-menu__clock-icon-wrapper">
           <img
@@ -28,6 +47,7 @@ export const TopMenu = () => {
             alt="clock_icon"
             className="top-menu__clock-icon"
           />
+          &nbsp;
           {formatedTime}
         </div>
       </div>
