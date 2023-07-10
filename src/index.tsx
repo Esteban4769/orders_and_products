@@ -1,3 +1,4 @@
+//
 import ReactDOM from 'react-dom';
 import './index.scss';
 import { HashRouter as Router } from 'react-router-dom';
