@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  height: 100%;
+
+  &__page {
+    background-color: $light-grey;
+    flex-grow: 1;
+  }
+}

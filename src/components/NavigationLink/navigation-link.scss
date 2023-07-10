@@ -1,0 +1,8 @@
+.nav-item {
+  position: relative;
+  color: black;
+
+  &--active {
+    @include underlineActive;
+  }
+}
