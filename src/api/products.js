@@ -12,8 +12,8 @@ export const products = [
       end: '2017-06-29 12:09:33',
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: false },
-      { value: 2600, symbol: 'UAH', isDefault: true },
+      { value: 140, symbol: 'USD', isDefault: false },
+      { value: 5200, symbol: 'UAH', isDefault: true },
     ],
   },
   {
@@ -29,8 +29,8 @@ export const products = [
       end: '2017-06-29 12:09:33',
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: false },
-      { value: 2600, symbol: 'UAH', isDefault: true },
+      { value: 400, symbol: 'USD', isDefault: false },
+      { value: 15000, symbol: 'UAH', isDefault: true },
     ],
   },
   {
@@ -46,8 +46,8 @@ export const products = [
       end: '2017-06-29 12:09:33',
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: false },
-      { value: 2600, symbol: 'UAH', isDefault: true },
+      { value: 200, symbol: 'USD', isDefault: false },
+      { value: 8000, symbol: 'UAH', isDefault: true },
     ],
   },
   {
@@ -63,8 +63,8 @@ export const products = [
       end: '2017-06-29 12:09:33',
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: false },
-      { value: 2600, symbol: 'UAH', isDefault: true },
+      { value: 550, symbol: 'USD', isDefault: false },
+      { value: 20000, symbol: 'UAH', isDefault: true },
     ],
   },
   {
@@ -80,8 +80,8 @@ export const products = [
       end: '2017-06-29 12:09:33',
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: false },
-      { value: 2600, symbol: 'UAH', isDefault: true },
+      { value: 165, symbol: 'USD', isDefault: false },
+      { value: 6000, symbol: 'UAH', isDefault: true },
     ],
   },
   {
@@ -97,8 +97,8 @@ export const products = [
       end: '2017-06-29 12:09:33',
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: false },
-      { value: 2600, symbol: 'UAH', isDefault: true },
+      { value: 270, symbol: 'USD', isDefault: false },
+      { value: 10000, symbol: 'UAH', isDefault: true },
     ],
   },
 ];

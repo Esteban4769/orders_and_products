@@ -28,10 +28,6 @@ export const OrderedProductList: React.FC<Props> = ({
     const ordersData = localStorage.getItem('orders');
     const ordersFromServer: Order[] = ordersData ? JSON.parse(ordersData) : [];
 
-    if (newProductsList.length < 1) {
-      onDeletingOrder(chosenOrder.id);
-    }
-
     const modifiedOrders = newProductsList.length > 0
       ? ordersFromServer.map(order => {
         if (order.id === chosenOrder.id) {
@@ -53,6 +49,11 @@ export const OrderedProductList: React.FC<Props> = ({
     setOrderedProducts(newProductsList);
 
     onOrderUpdate(modifiedOrders);
+
+    if (newProductsList.length < 1) {
+      onDeletingOrder(chosenOrder.id);
+      onClose();
+    }
   };
 
   useEffect(() => {
