@@ -1,0 +1,15 @@
+.home-page {
+  &__title {
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  &__accented-text {
+    font-weight: 700;
+  }
+}

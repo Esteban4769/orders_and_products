@@ -1,11 +1,12 @@
 .orders {
-  &__orders-list{
+  &__orders-list {
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
 
   &__title {
+    font-weight: 800;
     margin-bottom: 70px;
   }
 }
