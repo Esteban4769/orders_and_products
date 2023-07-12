@@ -6,7 +6,7 @@ export const NavigationMenu = () => {
     <nav className="navigation-menu">
       <ul className="navigation-menu__link-list">
         {navLinks.map(({ to, label }) => (
-          <li className="navigation-menu__link-list-item">
+          <li key={label} className="navigation-menu__link-list-item">
             <NavigationLink to={to} text={label} />
           </li>
         ))}

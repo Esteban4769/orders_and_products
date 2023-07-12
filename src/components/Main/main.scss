@@ -3,6 +3,8 @@
   height: 100%;
 
   &__page {
+    padding: 100px;
+    font-family: "Mont", sans-serif;
     background-color: $light-grey;
     flex-grow: 1;
   }

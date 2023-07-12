@@ -1,0 +1,61 @@
+.product-card {
+  width: 750px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 70px;
+  padding: 20px 30px;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  &___img-wrapper {
+    @include image-wrapper(45px);
+  }
+
+  &__photo {
+    @include image;
+  }
+
+  &__naming {
+    width: 150px;
+  }
+
+  &__name {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: $dark-grey;
+    text-decoration-thickness: 2px;
+  }
+
+  &__serial {
+    @include secondary-text;
+  }
+
+  &__type {
+    font-weight: 800;
+    width: 100px;
+  }
+
+  &__origin {
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  &__guarantee {
+    width: 120px;
+  }
+
+  &__guarantee-text {
+    @include secondary-text;
+  }
+
+  &__price--non-default {
+    @include secondary-text;
+  }
+
+  &__prices-text {
+    font-size: 13px;
+  }
+}

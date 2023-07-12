@@ -1,0 +1,29 @@
+.add-button {
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $accent-color;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color:$light-grey;
+    color: $accent-color;
+    border: 1px solid black;
+  }
+
+  &:active {
+    background-color: $dark-grey;
+    border-color: $accent-color;;
+  }
+}

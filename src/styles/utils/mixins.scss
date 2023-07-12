@@ -11,12 +11,17 @@
   }
 }
 
-@mixin icon-wrapper($width) {
+@mixin image-wrapper($width) {
   display: flex;
   width: $width;
 }
 
-@mixin icon {
+@mixin image {
   width: 100%;
   height: auto;
+}
+
+@mixin secondary-text{
+  font-size: 14px;
+  color: $dark-grey;
 }

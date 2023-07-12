@@ -16,19 +16,19 @@
   }
 
   &__title-icon-wrapper {
-    @include icon-wrapper(35px);
+    @include image-wrapper(35px);
   }
 
   &__clock-icon-wrapper {
-    @include icon-wrapper(15px);
+    @include image-wrapper(15px);
   }
 
   &__title-icon {
-    @include icon;
+    @include image;
   }
 
   &__clock-icon {
-    @include icon;
+    @include image;
   }
 
   &__title {
