@@ -1,9 +1,9 @@
 .main {
   display: flex;
-  height: 100%;
+  flex-grow: 1;
 
   &__page {
-    padding: 100px;
+    padding: 70px 100px 50px;
     font-family: "Mont", sans-serif;
     background-color: $light-grey;
     flex-grow: 1;

@@ -10,14 +10,6 @@
   border: 1px solid black;
   border-radius: 5px;
 
-  &___img-wrapper {
-    @include image-wrapper(45px);
-  }
-
-  &__photo {
-    @include image;
-  }
-
   &__naming {
     width: 150px;
   }
@@ -56,6 +48,6 @@
   }
 
   &__prices-text {
-    font-size: 13px;
+    font-size: 70%;
   }
 }

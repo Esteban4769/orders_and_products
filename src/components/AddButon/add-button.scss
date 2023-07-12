@@ -17,13 +17,28 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color:$light-grey;
+    background-color: $light-grey;
     color: $accent-color;
     border: 1px solid black;
   }
 
   &:active {
     background-color: $dark-grey;
-    border-color: $accent-color;;
+    border-color: $accent-color;
   }
+
+  &--delete {
+    background-color: $red;
+  }
+
+  &--delete:hover {
+    background-color: $light-grey;
+    color: $red;
+    border: 1px solid $red;
+  }
+
+  &--delete:active {
+    background-color: $dark-grey;
+  }
+
 }

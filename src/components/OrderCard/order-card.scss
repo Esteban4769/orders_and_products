@@ -1,0 +1,43 @@
+.order-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  width: fit-content;
+  height: 70px;
+  padding: 20px 30px;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  &__title {
+    width: 120px;
+  }
+
+  &__date {
+    width: 100px;
+  }
+
+  &__product-count {
+    width: 100px;
+  }
+
+  &__product-count-text {
+    font-size: 80%;
+    color: $dark-grey;
+  }
+
+  &__prices {
+    width: 150px;
+  }
+
+  &__price-text {
+    font-size: 70%;
+  }
+
+  &__non-default-price {
+    font-size: 80%;
+    color: $dark-grey;
+  }
+}

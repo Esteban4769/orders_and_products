@@ -1,0 +1,11 @@
+.orders {
+  &__orders-list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__title {
+    margin-bottom: 70px;
+  }
+}

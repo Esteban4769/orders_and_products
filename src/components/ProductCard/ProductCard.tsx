@@ -25,9 +25,9 @@ export const ProductCard: React.FC<Props> = ({ product }) => {
 
   return (
     <div className="product-card">
-      <div className="product-card___img-wrapper">
+      <div className="product-card__img-wrapper img-wrapper">
         <img
-          className="product-card__photo"
+          className="product-card__photo photo"
           src={photo}
           alt={title}
         />

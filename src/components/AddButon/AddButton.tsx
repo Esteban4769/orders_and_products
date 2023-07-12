@@ -34,7 +34,7 @@ export const AddButton: FC<Props> = ({ product }) => {
     const ordersData = localStorage.getItem('orders');
     const orders: Order[] = ordersData ? JSON.parse(ordersData) : [];
 
-    if (!products.length) {
+    if (!products.length || !orders.length) {
       const newOrder = generateNewOrder(orders, newProductsList);
 
       localStorage.setItem(

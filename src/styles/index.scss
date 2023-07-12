@@ -12,3 +12,30 @@
 @import "../components/Products/products.scss";
 @import "../components/ProductCard/product-card.scss";
 @import "../components/AddButon/add-button.scss";
+@import "../components/Orders/orders.scss";
+@import "../components/OrderCard/order-card.scss";
+@import "../components/OrderedProducs/ordered-products.scss";
+
+body {
+  min-height: 100%;
+  min-width: fit-content;
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100vh;
+}
+
+.order_and_products_app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.img-wrapper {
+  @include image-wrapper(45px);
+}
+
+.photo {
+  @include image;
+}
