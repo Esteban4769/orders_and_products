@@ -5,10 +5,13 @@ Welcome to the Orders & Products website! This website showcases a catalog of va
 
 ## Description
 
-Navigation Menu: A component that displays route links to "Orders" and "Products" pages.
-TopMenu: A component that shows the current date and time in real-time in the top-right corner.
-Orders Component: Displays a list of orders. Clicking on a specific order show popup of order details. Each order includes information such as the order name, the number of products in the order, creation dates in different formats, total order amount in two currencies, and a delete button to remove the order.
-Products Component: Displays a list of products and includes a filter option to filter products by type. Each product includes fields such as the product name, product type, warranty dates, price in different currencies.
+1.Navigation Menu: A component that displays route links to "Orders" and "Products" pages.
+
+2.TopMenu: A component that shows the current date and time in real-time in the top-right corner.
+
+3.Orders Component: Displays a list of orders. Clicking on a specific order show popup of order details. Each order includes information such as the order name, the number of products in the order, creation dates in different formats, total order amount in two currencies, and a delete button to remove the order.
+
+4.Products Component: Displays a list of products and includes a filter option to filter products by type. Each product includes fields such as the product name, product type, warranty dates, price in different currencies.
 
 ## Demo
 
